@@ -18,7 +18,7 @@ Where 1=1
 	--and avg_fragmentation_in_percent > 1
 	and avg_fragmentation_in_percent > 4 AND page_Count > 100
 	and index_id > 0
-	--and DB_name(database_id) = 'ACACalculationDB.JTA.6045_03062017'
+	--and DB_name(database_id) = 'Change_Me'
 	--and database_id = 17
 Order by page_count desc, avg_fragmentation_in_percent desc;  
 GO 
